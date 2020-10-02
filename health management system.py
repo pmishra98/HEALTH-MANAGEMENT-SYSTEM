@@ -1,11 +1,11 @@
 # harry and money is clients
 import datetime
 
-
+#i use datetime function for record
 def gettime():
     return datetime.datetime.now()
 
-
+#if u want to see data then press 2 
 print("enter your purpose  for lock press 1 and for retrive press 2")
 purpose = int(input())
 if purpose == 1:
